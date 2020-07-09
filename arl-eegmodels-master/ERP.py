@@ -89,9 +89,9 @@ from sklearn.linear_model import LogisticRegression
 # tools for plotting confusion matrices
 from matplotlib import pyplot as plt
 
-# 使用CPU运行
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+# # 使用CPU运行
+# import os
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 ##################### Process, filter and epoch the data ######################
 # data_path = sample.data_path()
